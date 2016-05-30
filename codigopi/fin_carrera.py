@@ -8,6 +8,7 @@ class FinCarrera(object):
     	self.pin  = pin
     	self.callback = callback
     	self.pi = pigpio.pi()
+    	
 
     def function(self):
         pass    	
