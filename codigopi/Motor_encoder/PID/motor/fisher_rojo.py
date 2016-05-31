@@ -6,8 +6,10 @@ class Motor_encoder(object):
         self.pinA = pinA
         self.pinB = pinB
         self.pi = pigpio.pi()
+        self.pi.set_mode(pinA, pigpio.OUTPUT)
+        self.pi.set_mode(pinB, pigpio.OUTPUT)
 
-    def avance(self , velocidad):
+    def avance(self , velocidad): # funcion que avanza hacia adelante o hacia aras dependiendo de la velocidad propuesta
         if velocidad > 0:    # si la velocidad es mayor a cero definimos pin hacia adelante , para que ese pin actue el PWM y apagamos el PWM en el otro pin 
             pin = self.pinA
             self.pi.set_PWM_cycle(self.pinB , 0)
@@ -26,5 +28,4 @@ class Motor_encoder(object):
 
     def stop(self):
         self.pi.set_PWM_cycle(self.pinA , 0)
-        self.pi.set_PWM_cycle(self.pinB , 0)        
-
+        self.pi.set_PWM_cycle(self.pinB , 0) 
