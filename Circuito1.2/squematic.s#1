@@ -4608,8 +4608,6 @@ Source: www.kingbright.com</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="FischerPi" width="0.007740625" drill="0">
-</class>
 </classes>
 <parts>
 <part name="IC1" library="linear" deviceset="LM358" device="N"/>
@@ -4628,8 +4626,8 @@ Source: www.kingbright.com</description>
 <part name="SV1" library="con-lstb" deviceset="MA20-2" device=""/>
 <part name="LEDOP2" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>
 <part name="LEDOP1" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="330"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="330"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="3k9"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="3k9"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="LEDON" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>

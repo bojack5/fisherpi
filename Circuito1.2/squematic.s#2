@@ -4608,8 +4608,6 @@ Source: www.kingbright.com</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="FischerPi" width="0.007740625" drill="0">
-</class>
 </classes>
 <parts>
 <part name="IC1" library="linear" deviceset="LM358" device="N"/>
@@ -4628,8 +4626,8 @@ Source: www.kingbright.com</description>
 <part name="SV1" library="con-lstb" deviceset="MA20-2" device=""/>
 <part name="LEDOP2" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>
 <part name="LEDOP1" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="330"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="330"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="3k9"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="3k9"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="LEDON" library="eagle-ltspice" deviceset="LED_E" device="LD260"/>
@@ -4781,7 +4779,6 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="-325.12" y1="142.24" x2="-325.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-312.42" y1="142.24" x2="-325.12" y2="142.24" width="0.1524" layer="91"/>
-<junction x="-325.12" y="142.24"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4920,7 +4917,6 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="-330.2" y1="73.66" x2="-330.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-314.96" y1="73.66" x2="-330.2" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-330.2" y="73.66"/>
 </segment>
 </net>
 <net name="SIGNAL1" class="0">
@@ -5413,9 +5409,6 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,-276.538,54.61,LEDOP2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
