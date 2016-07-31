@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
-pines = {'motores':{'1-1':21,
+
+
+
+
+class Base(object):
+    pines = {'motores':{'1-1':21,
                     '1-2':20,
                     '2-1':19,
                     '2-2':26,
@@ -18,5 +23,17 @@ pines = {'motores':{'1-1':21,
                     
                     }
         }
+    
+    def __init__(self):
+        pass
 
 
+            
+
+
+
+class Pines(Base):
+    """docstring for Pines"""
+    def __init__(self):
+        pass
+        
