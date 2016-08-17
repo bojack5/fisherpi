@@ -5945,7 +5945,7 @@ Source: www.kingbright.com</description>
 <class number="0" name="default" width="0.2032" drill="0">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="potencia" width="0.381" drill="0">
+<class number="1" name="potencia" width="1.016" drill="0">
 </class>
 </classes>
 <parts>
@@ -6633,7 +6633,7 @@ Source: www.kingbright.com</description>
 <pinref part="LEDON" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <pinref part="VOLTAGEIN" gate="-1" pin="S"/>
 <wire x1="-317.5" y1="0" x2="-325.12" y2="0" width="0.1524" layer="91"/>
